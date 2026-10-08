@@ -1,0 +1,173 @@
+{
+  "documents": [
+    {
+      "id": "vishay",
+      "title": "Vishay Siliconix \u00b7 2N7000 / 2N7002 datasheet",
+      "url": "https://www.vishay.com/docs/70226/70226.pdf",
+      "version": "70226 \u00b7 Rev. F \u00b7 16 Jul 2001"
+    },
+    {
+      "id": "lowcurrent",
+      "title": "Keithley \u00b7 Optimizing low current measurements",
+      "url": "https://www.tek.com/en/documents/application-note/optimizing-low-current-measurements-4200a-scs-parameter-analyzer",
+      "version": "4200A-SCS application note \u00b7 accessed 8 Oct 2026"
+    },
+    {
+      "id": "handbook",
+      "title": "Keithley \u00b7 Low Level Measurements Handbook",
+      "url": "https://www.tek.com/en/documents/product-article/keithley-low-level-measurements-handbook---7th-edition",
+      "version": "7th edition \u00b7 accessed 8 Oct 2026"
+    },
+    {
+      "id": "breakdown",
+      "title": "Keithley \u00b7 Breakdown and leakage measurements",
+      "url": "https://download.tek.com/document/1KW-61601-0_Breakdown-Leakage_Current_2470_Application_Note_080619.pdf",
+      "version": "1KW-61601-0 \u00b7 2019"
+    }
+  ],
+  "chunks": [
+    {
+      "id": "idss",
+      "document": "vishay",
+      "locator": "PDF p. 2 \u00b7 static specifications",
+      "page": 2,
+      "title": "Drain leakage: IDSS",
+      "text": "For the 2N7000, zero-gate-voltage drain current IDSS is specified at VDS = 48 V and VGS = 0 V. The maximum is 1 microampere under the table's default 25\u00b0C conditions. The elevated-temperature row has a different limit.",
+      "tags": "idss off state drain source leakage zero gate voltage",
+      "kind": "editorial paraphrase"
+    },
+    {
+      "id": "igss",
+      "document": "vishay",
+      "locator": "PDF p. 2 \u00b7 static specifications",
+      "page": 2,
+      "title": "Gate leakage: IGSS",
+      "text": "Gate-body leakage IGSS is distinct from IDSS. The 2N7000 row uses VDS = 0 V and VGS = \u00b115 V, with a \u00b110 nA limit. Do not substitute drain-leakage conditions.",
+      "tags": "igss gate body leakage gate current",
+      "kind": "editorial paraphrase"
+    },
+    {
+      "id": "threshold",
+      "document": "vishay",
+      "locator": "PDF p. 2 \u00b7 static specifications",
+      "page": 2,
+      "title": "Threshold voltage",
+      "text": "For 2N7000 threshold voltage VGS(th), the table uses VDS = VGS and ID = 1 mA; the specified range is 0.8 to 3 V. This is not an off-state leakage test.",
+      "tags": "threshold vth vgs turn on",
+      "kind": "editorial paraphrase"
+    },
+    {
+      "id": "rating",
+      "document": "vishay",
+      "locator": "PDF p. 2 \u00b7 absolute maximum ratings",
+      "page": 2,
+      "title": "Device ratings",
+      "text": "The drain-source absolute maximum rating is 60 V. An absolute maximum rating is not the IDSS measurement condition or a recommended operating target.",
+      "tags": "maximum rating drain voltage 60",
+      "kind": "editorial paraphrase"
+    },
+    {
+      "id": "settling",
+      "document": "lowcurrent",
+      "locator": "Section \u00b7 Settling Time and Timing Menu Settings",
+      "page": null,
+      "title": "Allow the measurement to settle",
+      "text": "Settling depends on source resistance and shunt capacitance from cables, fixtures, switches, and probes. Determine the delay experimentally using current versus time at the intended bias.",
+      "tags": "settle settling delay stabilize time rc transient",
+      "kind": "editorial paraphrase"
+    },
+    {
+      "id": "guard",
+      "document": "lowcurrent",
+      "locator": "Section \u00b7 Leakage Current and Guarding",
+      "page": null,
+      "title": "Separate fixture leakage",
+      "text": "Guarding reduces unwanted leakage through insulation. Verify the complete measurement circuit, including cables and fixtures; fixture leakage can contaminate device-current readings.",
+      "tags": "guard guarding triax fixture insulation parasitic leakage",
+      "kind": "editorial paraphrase"
+    },
+    {
+      "id": "shield",
+      "document": "lowcurrent",
+      "locator": "Section \u00b7 Electrostatic Interference and Shielding",
+      "page": null,
+      "title": "Control electrostatic interference",
+      "text": "Shield sensitive circuitry and avoid nearby movement. The 4200A-SCS example connects its shield to Force LO; follow the particular instrument manual for connections.",
+      "tags": "shield shielding noise movement electrostatic interference",
+      "kind": "editorial paraphrase"
+    },
+    {
+      "id": "offset",
+      "document": "lowcurrent",
+      "locator": "Section \u00b7 Offset Current Measurements",
+      "page": null,
+      "title": "Measure the system baseline",
+      "text": "Measure instrument offsets, then add circuit components progressively with the DUT absent. Repeat at the intended test voltage to reveal leakage in cables and fixtures.",
+      "tags": "offset baseline open circuit background calibration",
+      "kind": "editorial paraphrase"
+    },
+    {
+      "id": "filter",
+      "document": "lowcurrent",
+      "locator": "Section \u00b7 Settling Time and Timing Menu Settings",
+      "page": null,
+      "title": "Noise versus throughput",
+      "text": "Additional filtering and delays can reduce noise while slowing measurements. A current-versus-time experiment helps choose a suitable interval.",
+      "tags": "filter filtering average throughput speed noise tradeoff",
+      "kind": "editorial paraphrase"
+    },
+    {
+      "id": "drift",
+      "document": "handbook",
+      "locator": "Section 2.3.3 \u00b7 Zero Drift",
+      "page": null,
+      "title": "Temperature and zero drift",
+      "text": "Temperature and elapsed time can change zero offset. Stabilize the environment and follow the instrument's zero-correction procedure.",
+      "tags": "drift temperature warmup zero correction stability",
+      "kind": "editorial paraphrase"
+    },
+    {
+      "id": "generated",
+      "document": "handbook",
+      "locator": "Section 2.3.4 \u00b7 Generated Currents",
+      "page": null,
+      "title": "The reading includes error currents",
+      "text": "Instrument input bias and currents generated by cables or insulators can contribute to the measured current. A measured value is not automatically the DUT leakage alone.",
+      "tags": "bias generated triboelectric cable current error",
+      "kind": "editorial paraphrase"
+    },
+    {
+      "id": "verify",
+      "document": "handbook",
+      "locator": "Section 2.9 \u00b7 Electrometer Verification",
+      "page": null,
+      "title": "Verify the measurement system",
+      "text": "Check instrument performance against its specifications. Characterize the offset and leakage of the entire system before interpreting very small currents.",
+      "tags": "verify verification noise floor instrument specification",
+      "kind": "editorial paraphrase"
+    },
+    {
+      "id": "breakdown",
+      "document": "breakdown",
+      "locator": "PDF p. 3 \u00b7 Breakdown Voltage Measurements",
+      "page": 3,
+      "title": "Breakdown is a different experiment",
+      "text": "A breakdown measurement increases reverse voltage until a specified test current is reached. It is distinct from measuring leakage at a fixed voltage.",
+      "tags": "breakdown reverse voltage sweep avalanche test current",
+      "kind": "editorial paraphrase"
+    },
+    {
+      "id": "hv",
+      "document": "breakdown",
+      "locator": "PDF pp. 3\u20134 \u00b7 Safety Considerations",
+      "page": 3,
+      "title": "High-voltage procedures need specific controls",
+      "text": "The high-voltage application note describes enclosing exposed conductors and following instrument safety requirements. This demo implements no physical hardware connection.",
+      "tags": "high voltage enclosure interlock safety 1100",
+      "kind": "editorial paraphrase"
+    }
+  ],
+  "scope": "2N7000 IDSS planning; other measurements retrieval-only",
+  "retrieved": "2026-10-08",
+  "corpus_type": "Human-written, source-grounded summaries. Not full-document ingestion."
+}

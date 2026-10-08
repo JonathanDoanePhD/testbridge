@@ -1,0 +1,2856 @@
+{
+  "created": "2026-10-08",
+  "benchmark_type": "Synthetic development benchmark, not held-out engineer validation",
+  "queries": 60,
+  "groups": 20,
+  "records": 14,
+  "methods": [
+    {
+      "method": "keyword",
+      "recall_at_3": 0.8666666666666667,
+      "mrr_at_3": 0.7722222222222224,
+      "rows": [
+        {
+          "id": "q01-1",
+          "group": "g01",
+          "query": "What does IDSS measure?",
+          "relevant": [
+            "idss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "idss",
+            "igss",
+            "offset"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q01-2",
+          "group": "g01",
+          "query": "Find the zero gate voltage drain current condition.",
+          "relevant": [
+            "idss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "idss",
+            "breakdown",
+            "igss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q01-3",
+          "group": "g01",
+          "query": "How should off-state drain leakage be tested?",
+          "relevant": [
+            "idss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "threshold",
+            "idss",
+            "igss"
+          ],
+          "recall": 1,
+          "rr": 0.5
+        },
+        {
+          "id": "q02-1",
+          "group": "g02",
+          "query": "What is the 2N7000 drain leakage limit at 48 V?",
+          "relevant": [
+            "idss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "idss",
+            "igss",
+            "threshold"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q02-2",
+          "group": "g02",
+          "query": "Which bias is specified for 2N7000 off-state leakage?",
+          "relevant": [
+            "idss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "threshold",
+            "idss",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 0.5
+        },
+        {
+          "id": "q02-3",
+          "group": "g02",
+          "query": "Does the 2N7000 IDSS row specify a maximum current?",
+          "relevant": [
+            "idss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "idss",
+            "igss",
+            "rating"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q03-1",
+          "group": "g03",
+          "query": "What conditions define IGSS?",
+          "relevant": [
+            "igss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "igss",
+            "idss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q03-2",
+          "group": "g03",
+          "query": "Find the gate-body leakage condition.",
+          "relevant": [
+            "igss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "igss",
+            "idss",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q03-3",
+          "group": "g03",
+          "query": "What voltage is used to measure gate leakage?",
+          "relevant": [
+            "igss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "idss",
+            "offset",
+            "breakdown"
+          ],
+          "recall": 0,
+          "rr": 0
+        },
+        {
+          "id": "q04-1",
+          "group": "g04",
+          "query": "Is IGSS measured at zero drain voltage?",
+          "relevant": [
+            "igss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "idss",
+            "igss",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 0.5
+        },
+        {
+          "id": "q04-2",
+          "group": "g04",
+          "query": "Which terminal current is gate leakage?",
+          "relevant": [
+            "igss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "idss",
+            "breakdown",
+            "generated"
+          ],
+          "recall": 0,
+          "rr": 0
+        },
+        {
+          "id": "q04-3",
+          "group": "g04",
+          "query": "What is the 2N7000 gate leakage limit?",
+          "relevant": [
+            "igss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "idss",
+            "igss",
+            "threshold"
+          ],
+          "recall": 1,
+          "rr": 0.5
+        },
+        {
+          "id": "q05-1",
+          "group": "g05",
+          "query": "What is the threshold voltage condition?",
+          "relevant": [
+            "threshold"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "threshold",
+            "breakdown",
+            "hv"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q05-2",
+          "group": "g05",
+          "query": "What current defines VGS(th) for 2N7000?",
+          "relevant": [
+            "threshold"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "idss",
+            "threshold",
+            "igss"
+          ],
+          "recall": 1,
+          "rr": 0.5
+        },
+        {
+          "id": "q05-3",
+          "group": "g05",
+          "query": "Find Vth rather than off-state leakage.",
+          "relevant": [
+            "threshold"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "threshold",
+            "breakdown",
+            "generated"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q06-1",
+          "group": "g06",
+          "query": "What is the drain-source absolute maximum rating?",
+          "relevant": [
+            "rating"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "rating",
+            "idss",
+            "igss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q06-2",
+          "group": "g06",
+          "query": "Can the maximum rating be used as the leakage test voltage?",
+          "relevant": [
+            "rating"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "breakdown",
+            "idss",
+            "offset"
+          ],
+          "recall": 0,
+          "rr": 0
+        },
+        {
+          "id": "q06-3",
+          "group": "g06",
+          "query": "What is the maximum rated drain voltage?",
+          "relevant": [
+            "rating"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "idss",
+            "rating",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 0.5
+        },
+        {
+          "id": "q07-1",
+          "group": "g07",
+          "query": "How do I determine settling time?",
+          "relevant": [
+            "settling"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "settling",
+            "drift",
+            "filter"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q07-2",
+          "group": "g07",
+          "query": "Why does the reading need time to stabilize?",
+          "relevant": [
+            "settling"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "drift",
+            "filter",
+            "generated"
+          ],
+          "recall": 0,
+          "rr": 0
+        },
+        {
+          "id": "q07-3",
+          "group": "g07",
+          "query": "What sets the delay before low-current acquisition?",
+          "relevant": [
+            "settling"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "settling",
+            "breakdown",
+            "filter"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q08-1",
+          "group": "g08",
+          "query": "What causes a transient after a bias change?",
+          "relevant": [
+            "settling"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "drift",
+            "generated",
+            "settling"
+          ],
+          "recall": 1,
+          "rr": 0.3333333333333333
+        },
+        {
+          "id": "q08-2",
+          "group": "g08",
+          "query": "How does shunt capacitance affect settling?",
+          "relevant": [
+            "settling"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "settling"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q08-3",
+          "group": "g08",
+          "query": "How can I choose a delay from a current-versus-time plot?",
+          "relevant": [
+            "settling"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "settling",
+            "filter",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q09-1",
+          "group": "g09",
+          "query": "How does guarding reduce leakage?",
+          "relevant": [
+            "guard"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "guard",
+            "breakdown",
+            "filter"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q09-2",
+          "group": "g09",
+          "query": "Why use triax for fixture leakage?",
+          "relevant": [
+            "guard"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "guard",
+            "breakdown",
+            "generated"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q09-3",
+          "group": "g09",
+          "query": "Can insulation leakage contaminate the device reading?",
+          "relevant": [
+            "guard"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "guard",
+            "generated",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q10-1",
+          "group": "g10",
+          "query": "What does a guard do in a low-current circuit?",
+          "relevant": [
+            "guard"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "guard",
+            "breakdown",
+            "filter"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q10-2",
+          "group": "g10",
+          "query": "Which technique reduces fixture leakage?",
+          "relevant": [
+            "guard"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "guard",
+            "breakdown",
+            "generated"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q10-3",
+          "group": "g10",
+          "query": "How do I separate parasitic insulation leakage?",
+          "relevant": [
+            "guard"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "guard",
+            "breakdown",
+            "generated"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q11-1",
+          "group": "g11",
+          "query": "Why does movement near the setup change current?",
+          "relevant": [
+            "shield"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "breakdown",
+            "drift",
+            "filter"
+          ],
+          "recall": 0,
+          "rr": 0
+        },
+        {
+          "id": "q11-2",
+          "group": "g11",
+          "query": "How do I reduce electrostatic interference?",
+          "relevant": [
+            "shield"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "shield",
+            "filter"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q11-3",
+          "group": "g11",
+          "query": "When should sensitive circuitry be shielded?",
+          "relevant": [
+            "shield"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "shield"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q12-1",
+          "group": "g12",
+          "query": "Where is the shield connected in the 4200A-SCS example?",
+          "relevant": [
+            "shield"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "shield"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q12-2",
+          "group": "g12",
+          "query": "What should I do about electrostatic coupling?",
+          "relevant": [
+            "shield"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "shield"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q12-3",
+          "group": "g12",
+          "query": "Does shielding help with nearby charged objects?",
+          "relevant": [
+            "shield"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "shield"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q13-1",
+          "group": "g13",
+          "query": "How do I measure system offset without the DUT?",
+          "relevant": [
+            "offset"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "offset",
+            "verify",
+            "drift"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q13-2",
+          "group": "g13",
+          "query": "Can I measure a baseline before connecting the device?",
+          "relevant": [
+            "offset"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "offset",
+            "guard",
+            "rating"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q13-3",
+          "group": "g13",
+          "query": "How do I isolate background current from cables?",
+          "relevant": [
+            "offset"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "settling",
+            "breakdown",
+            "generated"
+          ],
+          "recall": 0,
+          "rr": 0
+        },
+        {
+          "id": "q14-1",
+          "group": "g14",
+          "query": "Should I add fixtures progressively during offset checks?",
+          "relevant": [
+            "offset"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "offset",
+            "drift",
+            "guard"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q14-2",
+          "group": "g14",
+          "query": "How do I check background leakage at the test bias?",
+          "relevant": [
+            "offset"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "breakdown",
+            "generated",
+            "offset"
+          ],
+          "recall": 1,
+          "rr": 0.3333333333333333
+        },
+        {
+          "id": "q14-3",
+          "group": "g14",
+          "query": "How should I characterize open circuit offset?",
+          "relevant": [
+            "offset"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "verify",
+            "drift",
+            "guard"
+          ],
+          "recall": 0,
+          "rr": 0
+        },
+        {
+          "id": "q15-1",
+          "group": "g15",
+          "query": "What is the filtering versus speed tradeoff?",
+          "relevant": [
+            "filter"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "filter",
+            "settling"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q15-2",
+          "group": "g15",
+          "query": "How does averaging affect throughput?",
+          "relevant": [
+            "filter"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "filter"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q15-3",
+          "group": "g15",
+          "query": "Can additional delay reduce noise but slow testing?",
+          "relevant": [
+            "filter"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "filter",
+            "settling"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q16-1",
+          "group": "g16",
+          "query": "Why does zero drift change with temperature?",
+          "relevant": [
+            "drift"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "drift",
+            "idss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q16-2",
+          "group": "g16",
+          "query": "Why is thermal stability needed?",
+          "relevant": [
+            "drift"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [],
+          "recall": 0,
+          "rr": 0
+        },
+        {
+          "id": "q16-3",
+          "group": "g16",
+          "query": "What can warmup and temperature changes do to offset?",
+          "relevant": [
+            "drift"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "drift",
+            "idss",
+            "verify"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q17-1",
+          "group": "g17",
+          "query": "Can input bias contribute to measured current?",
+          "relevant": [
+            "generated"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "generated",
+            "settling",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q17-2",
+          "group": "g17",
+          "query": "Why does moving a cable generate current?",
+          "relevant": [
+            "generated"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "breakdown",
+            "filter",
+            "generated"
+          ],
+          "recall": 1,
+          "rr": 0.3333333333333333
+        },
+        {
+          "id": "q17-3",
+          "group": "g17",
+          "query": "What are triboelectric error currents?",
+          "relevant": [
+            "generated"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "generated",
+            "verify"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q18-1",
+          "group": "g18",
+          "query": "How do I verify my noise floor?",
+          "relevant": [
+            "verify"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "filter",
+            "guard",
+            "verify"
+          ],
+          "recall": 1,
+          "rr": 0.3333333333333333
+        },
+        {
+          "id": "q18-2",
+          "group": "g18",
+          "query": "How do I verify the instrument against its specification?",
+          "relevant": [
+            "verify"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "verify",
+            "shield",
+            "drift"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q18-3",
+          "group": "g18",
+          "query": "Why characterize system leakage before very small currents?",
+          "relevant": [
+            "verify"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "verify",
+            "generated",
+            "offset"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q19-1",
+          "group": "g19",
+          "query": "How is breakdown voltage measured?",
+          "relevant": [
+            "breakdown"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "breakdown",
+            "generated",
+            "hv"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q19-2",
+          "group": "g19",
+          "query": "Is an avalanche sweep the same as fixed-bias leakage?",
+          "relevant": [
+            "breakdown"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "breakdown",
+            "generated",
+            "guard"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q19-3",
+          "group": "g19",
+          "query": "What defines the stopping current in breakdown testing?",
+          "relevant": [
+            "breakdown"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "breakdown",
+            "filter",
+            "generated"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q20-1",
+          "group": "g20",
+          "query": "What does the high voltage safety note require?",
+          "relevant": [
+            "hv"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "hv",
+            "breakdown",
+            "idss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q20-2",
+          "group": "g20",
+          "query": "Where should exposed high-voltage conductors be enclosed?",
+          "relevant": [
+            "hv"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "hv",
+            "breakdown",
+            "idss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q20-3",
+          "group": "g20",
+          "query": "Does this demo implement a physical interlock?",
+          "relevant": [
+            "hv"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "hv"
+          ],
+          "recall": 1,
+          "rr": 1
+        }
+      ]
+    },
+    {
+      "method": "bm25",
+      "recall_at_3": 0.9166666666666666,
+      "mrr_at_3": 0.836111111111111,
+      "rows": [
+        {
+          "id": "q01-1",
+          "group": "g01",
+          "query": "What does IDSS measure?",
+          "relevant": [
+            "idss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "offset",
+            "idss",
+            "rating"
+          ],
+          "recall": 1,
+          "rr": 0.5
+        },
+        {
+          "id": "q01-2",
+          "group": "g01",
+          "query": "Find the zero gate voltage drain current condition.",
+          "relevant": [
+            "idss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "idss",
+            "rating",
+            "igss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q01-3",
+          "group": "g01",
+          "query": "How should off-state drain leakage be tested?",
+          "relevant": [
+            "idss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "threshold",
+            "idss",
+            "igss"
+          ],
+          "recall": 1,
+          "rr": 0.5
+        },
+        {
+          "id": "q02-1",
+          "group": "g02",
+          "query": "What is the 2N7000 drain leakage limit at 48 V?",
+          "relevant": [
+            "idss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "idss",
+            "igss",
+            "threshold"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q02-2",
+          "group": "g02",
+          "query": "Which bias is specified for 2N7000 off-state leakage?",
+          "relevant": [
+            "idss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "threshold",
+            "idss",
+            "generated"
+          ],
+          "recall": 1,
+          "rr": 0.5
+        },
+        {
+          "id": "q02-3",
+          "group": "g02",
+          "query": "Does the 2N7000 IDSS row specify a maximum current?",
+          "relevant": [
+            "idss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "idss",
+            "igss",
+            "rating"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q03-1",
+          "group": "g03",
+          "query": "What conditions define IGSS?",
+          "relevant": [
+            "igss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "igss",
+            "idss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q03-2",
+          "group": "g03",
+          "query": "Find the gate-body leakage condition.",
+          "relevant": [
+            "igss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "igss",
+            "rating",
+            "idss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q03-3",
+          "group": "g03",
+          "query": "What voltage is used to measure gate leakage?",
+          "relevant": [
+            "igss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "offset",
+            "igss",
+            "idss"
+          ],
+          "recall": 1,
+          "rr": 0.5
+        },
+        {
+          "id": "q04-1",
+          "group": "g04",
+          "query": "Is IGSS measured at zero drain voltage?",
+          "relevant": [
+            "igss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "igss",
+            "idss",
+            "generated"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q04-2",
+          "group": "g04",
+          "query": "Which terminal current is gate leakage?",
+          "relevant": [
+            "igss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "igss",
+            "idss",
+            "guard"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q04-3",
+          "group": "g04",
+          "query": "What is the 2N7000 gate leakage limit?",
+          "relevant": [
+            "igss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "igss",
+            "idss",
+            "threshold"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q05-1",
+          "group": "g05",
+          "query": "What is the threshold voltage condition?",
+          "relevant": [
+            "threshold"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "threshold",
+            "rating",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q05-2",
+          "group": "g05",
+          "query": "What current defines VGS(th) for 2N7000?",
+          "relevant": [
+            "threshold"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "threshold",
+            "idss",
+            "igss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q05-3",
+          "group": "g05",
+          "query": "Find Vth rather than off-state leakage.",
+          "relevant": [
+            "threshold"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "threshold",
+            "guard",
+            "igss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q06-1",
+          "group": "g06",
+          "query": "What is the drain-source absolute maximum rating?",
+          "relevant": [
+            "rating"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "rating",
+            "idss",
+            "settling"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q06-2",
+          "group": "g06",
+          "query": "Can the maximum rating be used as the leakage test voltage?",
+          "relevant": [
+            "rating"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "rating",
+            "breakdown",
+            "threshold"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q06-3",
+          "group": "g06",
+          "query": "What is the maximum rated drain voltage?",
+          "relevant": [
+            "rating"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "idss",
+            "rating",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 0.5
+        },
+        {
+          "id": "q07-1",
+          "group": "g07",
+          "query": "How do I determine settling time?",
+          "relevant": [
+            "settling"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "settling",
+            "drift",
+            "filter"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q07-2",
+          "group": "g07",
+          "query": "Why does the reading need time to stabilize?",
+          "relevant": [
+            "settling"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "drift",
+            "generated",
+            "hv"
+          ],
+          "recall": 0,
+          "rr": 0
+        },
+        {
+          "id": "q07-3",
+          "group": "g07",
+          "query": "What sets the delay before low-current acquisition?",
+          "relevant": [
+            "settling"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "settling",
+            "verify",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q08-1",
+          "group": "g08",
+          "query": "What causes a transient after a bias change?",
+          "relevant": [
+            "settling"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "drift",
+            "generated",
+            "settling"
+          ],
+          "recall": 1,
+          "rr": 0.3333333333333333
+        },
+        {
+          "id": "q08-2",
+          "group": "g08",
+          "query": "How does shunt capacitance affect settling?",
+          "relevant": [
+            "settling"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "settling"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q08-3",
+          "group": "g08",
+          "query": "How can I choose a delay from a current-versus-time plot?",
+          "relevant": [
+            "settling"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "settling",
+            "filter",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q09-1",
+          "group": "g09",
+          "query": "How does guarding reduce leakage?",
+          "relevant": [
+            "guard"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "guard",
+            "filter",
+            "igss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q09-2",
+          "group": "g09",
+          "query": "Why use triax for fixture leakage?",
+          "relevant": [
+            "guard"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "guard",
+            "igss",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q09-3",
+          "group": "g09",
+          "query": "Can insulation leakage contaminate the device reading?",
+          "relevant": [
+            "guard"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "guard",
+            "generated",
+            "rating"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q10-1",
+          "group": "g10",
+          "query": "What does a guard do in a low-current circuit?",
+          "relevant": [
+            "guard"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "guard",
+            "offset",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q10-2",
+          "group": "g10",
+          "query": "Which technique reduces fixture leakage?",
+          "relevant": [
+            "guard"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "guard",
+            "igss",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q10-3",
+          "group": "g10",
+          "query": "How do I separate parasitic insulation leakage?",
+          "relevant": [
+            "guard"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "guard",
+            "igss",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q11-1",
+          "group": "g11",
+          "query": "Why does movement near the setup change current?",
+          "relevant": [
+            "shield"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "drift",
+            "shield",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 0.5
+        },
+        {
+          "id": "q11-2",
+          "group": "g11",
+          "query": "How do I reduce electrostatic interference?",
+          "relevant": [
+            "shield"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "shield",
+            "filter"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q11-3",
+          "group": "g11",
+          "query": "When should sensitive circuitry be shielded?",
+          "relevant": [
+            "shield"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "shield"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q12-1",
+          "group": "g12",
+          "query": "Where is the shield connected in the 4200A-SCS example?",
+          "relevant": [
+            "shield"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "shield"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q12-2",
+          "group": "g12",
+          "query": "What should I do about electrostatic coupling?",
+          "relevant": [
+            "shield"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "shield"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q12-3",
+          "group": "g12",
+          "query": "Does shielding help with nearby charged objects?",
+          "relevant": [
+            "shield"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "shield"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q13-1",
+          "group": "g13",
+          "query": "How do I measure system offset without the DUT?",
+          "relevant": [
+            "offset"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "offset",
+            "verify",
+            "drift"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q13-2",
+          "group": "g13",
+          "query": "Can I measure a baseline before connecting the device?",
+          "relevant": [
+            "offset"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "offset",
+            "verify",
+            "rating"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q13-3",
+          "group": "g13",
+          "query": "How do I isolate background current from cables?",
+          "relevant": [
+            "offset"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "settling",
+            "breakdown",
+            "guard"
+          ],
+          "recall": 0,
+          "rr": 0
+        },
+        {
+          "id": "q14-1",
+          "group": "g14",
+          "query": "Should I add fixtures progressively during offset checks?",
+          "relevant": [
+            "offset"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "offset",
+            "drift",
+            "verify"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q14-2",
+          "group": "g14",
+          "query": "How do I check background leakage at the test bias?",
+          "relevant": [
+            "offset"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "verify",
+            "generated",
+            "breakdown"
+          ],
+          "recall": 0,
+          "rr": 0
+        },
+        {
+          "id": "q14-3",
+          "group": "g14",
+          "query": "How should I characterize open circuit offset?",
+          "relevant": [
+            "offset"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "verify",
+            "drift",
+            "offset"
+          ],
+          "recall": 1,
+          "rr": 0.3333333333333333
+        },
+        {
+          "id": "q15-1",
+          "group": "g15",
+          "query": "What is the filtering versus speed tradeoff?",
+          "relevant": [
+            "filter"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "filter",
+            "settling"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q15-2",
+          "group": "g15",
+          "query": "How does averaging affect throughput?",
+          "relevant": [
+            "filter"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "filter"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q15-3",
+          "group": "g15",
+          "query": "Can additional delay reduce noise but slow testing?",
+          "relevant": [
+            "filter"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "filter",
+            "settling"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q16-1",
+          "group": "g16",
+          "query": "Why does zero drift change with temperature?",
+          "relevant": [
+            "drift"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "drift",
+            "idss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q16-2",
+          "group": "g16",
+          "query": "Why is thermal stability needed?",
+          "relevant": [
+            "drift"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [],
+          "recall": 0,
+          "rr": 0
+        },
+        {
+          "id": "q16-3",
+          "group": "g16",
+          "query": "What can warmup and temperature changes do to offset?",
+          "relevant": [
+            "drift"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "drift",
+            "verify",
+            "idss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q17-1",
+          "group": "g17",
+          "query": "Can input bias contribute to measured current?",
+          "relevant": [
+            "generated"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "generated",
+            "settling",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q17-2",
+          "group": "g17",
+          "query": "Why does moving a cable generate current?",
+          "relevant": [
+            "generated"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "breakdown",
+            "filter",
+            "guard"
+          ],
+          "recall": 0,
+          "rr": 0
+        },
+        {
+          "id": "q17-3",
+          "group": "g17",
+          "query": "What are triboelectric error currents?",
+          "relevant": [
+            "generated"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "generated",
+            "verify"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q18-1",
+          "group": "g18",
+          "query": "How do I verify my noise floor?",
+          "relevant": [
+            "verify"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "filter",
+            "verify",
+            "guard"
+          ],
+          "recall": 1,
+          "rr": 0.5
+        },
+        {
+          "id": "q18-2",
+          "group": "g18",
+          "query": "How do I verify the instrument against its specification?",
+          "relevant": [
+            "verify"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "verify",
+            "shield",
+            "guard"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q18-3",
+          "group": "g18",
+          "query": "Why characterize system leakage before very small currents?",
+          "relevant": [
+            "verify"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "verify",
+            "generated",
+            "offset"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q19-1",
+          "group": "g19",
+          "query": "How is breakdown voltage measured?",
+          "relevant": [
+            "breakdown"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "breakdown",
+            "generated",
+            "hv"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q19-2",
+          "group": "g19",
+          "query": "Is an avalanche sweep the same as fixed-bias leakage?",
+          "relevant": [
+            "breakdown"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "breakdown",
+            "generated",
+            "settling"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q19-3",
+          "group": "g19",
+          "query": "What defines the stopping current in breakdown testing?",
+          "relevant": [
+            "breakdown"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "breakdown",
+            "filter",
+            "guard"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q20-1",
+          "group": "g20",
+          "query": "What does the high voltage safety note require?",
+          "relevant": [
+            "hv"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "hv",
+            "breakdown",
+            "threshold"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q20-2",
+          "group": "g20",
+          "query": "Where should exposed high-voltage conductors be enclosed?",
+          "relevant": [
+            "hv"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "hv",
+            "breakdown",
+            "threshold"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q20-3",
+          "group": "g20",
+          "query": "Does this demo implement a physical interlock?",
+          "relevant": [
+            "hv"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "hv"
+          ],
+          "recall": 1,
+          "rr": 1
+        }
+      ]
+    },
+    {
+      "method": "hybrid",
+      "recall_at_3": 1,
+      "mrr_at_3": 0.9916666666666667,
+      "rows": [
+        {
+          "id": "q01-1",
+          "group": "g01",
+          "query": "What does IDSS measure?",
+          "relevant": [
+            "idss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "idss",
+            "offset",
+            "rating"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q01-2",
+          "group": "g01",
+          "query": "Find the zero gate voltage drain current condition.",
+          "relevant": [
+            "idss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "idss",
+            "rating",
+            "igss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q01-3",
+          "group": "g01",
+          "query": "How should off-state drain leakage be tested?",
+          "relevant": [
+            "idss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "idss",
+            "threshold",
+            "igss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q02-1",
+          "group": "g02",
+          "query": "What is the 2N7000 drain leakage limit at 48 V?",
+          "relevant": [
+            "idss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "idss",
+            "igss",
+            "rating"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q02-2",
+          "group": "g02",
+          "query": "Which bias is specified for 2N7000 off-state leakage?",
+          "relevant": [
+            "idss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "idss",
+            "threshold",
+            "generated"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q02-3",
+          "group": "g02",
+          "query": "Does the 2N7000 IDSS row specify a maximum current?",
+          "relevant": [
+            "idss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "idss",
+            "igss",
+            "rating"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q03-1",
+          "group": "g03",
+          "query": "What conditions define IGSS?",
+          "relevant": [
+            "igss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "igss",
+            "idss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q03-2",
+          "group": "g03",
+          "query": "Find the gate-body leakage condition.",
+          "relevant": [
+            "igss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "igss",
+            "idss",
+            "rating"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q03-3",
+          "group": "g03",
+          "query": "What voltage is used to measure gate leakage?",
+          "relevant": [
+            "igss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "igss",
+            "offset",
+            "idss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q04-1",
+          "group": "g04",
+          "query": "Is IGSS measured at zero drain voltage?",
+          "relevant": [
+            "igss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "igss",
+            "idss",
+            "generated"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q04-2",
+          "group": "g04",
+          "query": "Which terminal current is gate leakage?",
+          "relevant": [
+            "igss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "igss",
+            "idss",
+            "guard"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q04-3",
+          "group": "g04",
+          "query": "What is the 2N7000 gate leakage limit?",
+          "relevant": [
+            "igss"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "igss",
+            "idss",
+            "threshold"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q05-1",
+          "group": "g05",
+          "query": "What is the threshold voltage condition?",
+          "relevant": [
+            "threshold"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "threshold",
+            "rating",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q05-2",
+          "group": "g05",
+          "query": "What current defines VGS(th) for 2N7000?",
+          "relevant": [
+            "threshold"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "threshold",
+            "igss",
+            "idss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q05-3",
+          "group": "g05",
+          "query": "Find Vth rather than off-state leakage.",
+          "relevant": [
+            "threshold"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "threshold",
+            "idss",
+            "guard"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q06-1",
+          "group": "g06",
+          "query": "What is the drain-source absolute maximum rating?",
+          "relevant": [
+            "rating"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "rating",
+            "idss",
+            "settling"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q06-2",
+          "group": "g06",
+          "query": "Can the maximum rating be used as the leakage test voltage?",
+          "relevant": [
+            "rating"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "rating",
+            "breakdown",
+            "idss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q06-3",
+          "group": "g06",
+          "query": "What is the maximum rated drain voltage?",
+          "relevant": [
+            "rating"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "rating",
+            "idss",
+            "igss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q07-1",
+          "group": "g07",
+          "query": "How do I determine settling time?",
+          "relevant": [
+            "settling"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "settling",
+            "drift",
+            "filter"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q07-2",
+          "group": "g07",
+          "query": "Why does the reading need time to stabilize?",
+          "relevant": [
+            "settling"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "settling",
+            "drift",
+            "generated"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q07-3",
+          "group": "g07",
+          "query": "What sets the delay before low-current acquisition?",
+          "relevant": [
+            "settling"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "settling",
+            "verify",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q08-1",
+          "group": "g08",
+          "query": "What causes a transient after a bias change?",
+          "relevant": [
+            "settling"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "settling",
+            "drift",
+            "generated"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q08-2",
+          "group": "g08",
+          "query": "How does shunt capacitance affect settling?",
+          "relevant": [
+            "settling"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "settling"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q08-3",
+          "group": "g08",
+          "query": "How can I choose a delay from a current-versus-time plot?",
+          "relevant": [
+            "settling"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "settling",
+            "filter",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q09-1",
+          "group": "g09",
+          "query": "How does guarding reduce leakage?",
+          "relevant": [
+            "guard"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "guard",
+            "filter",
+            "igss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q09-2",
+          "group": "g09",
+          "query": "Why use triax for fixture leakage?",
+          "relevant": [
+            "guard"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "guard",
+            "igss",
+            "idss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q09-3",
+          "group": "g09",
+          "query": "Can insulation leakage contaminate the device reading?",
+          "relevant": [
+            "guard"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "guard",
+            "generated",
+            "rating"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q10-1",
+          "group": "g10",
+          "query": "What does a guard do in a low-current circuit?",
+          "relevant": [
+            "guard"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "guard",
+            "offset",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q10-2",
+          "group": "g10",
+          "query": "Which technique reduces fixture leakage?",
+          "relevant": [
+            "guard"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "guard",
+            "igss",
+            "idss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q10-3",
+          "group": "g10",
+          "query": "How do I separate parasitic insulation leakage?",
+          "relevant": [
+            "guard"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "guard",
+            "igss",
+            "idss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q11-1",
+          "group": "g11",
+          "query": "Why does movement near the setup change current?",
+          "relevant": [
+            "shield"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "shield",
+            "drift",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q11-2",
+          "group": "g11",
+          "query": "How do I reduce electrostatic interference?",
+          "relevant": [
+            "shield"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "shield",
+            "filter"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q11-3",
+          "group": "g11",
+          "query": "When should sensitive circuitry be shielded?",
+          "relevant": [
+            "shield"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "shield"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q12-1",
+          "group": "g12",
+          "query": "Where is the shield connected in the 4200A-SCS example?",
+          "relevant": [
+            "shield"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "shield"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q12-2",
+          "group": "g12",
+          "query": "What should I do about electrostatic coupling?",
+          "relevant": [
+            "shield"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "shield"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q12-3",
+          "group": "g12",
+          "query": "Does shielding help with nearby charged objects?",
+          "relevant": [
+            "shield"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "shield"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q13-1",
+          "group": "g13",
+          "query": "How do I measure system offset without the DUT?",
+          "relevant": [
+            "offset"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "offset",
+            "verify",
+            "generated"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q13-2",
+          "group": "g13",
+          "query": "Can I measure a baseline before connecting the device?",
+          "relevant": [
+            "offset"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "offset",
+            "verify",
+            "rating"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q13-3",
+          "group": "g13",
+          "query": "How do I isolate background current from cables?",
+          "relevant": [
+            "offset"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "offset",
+            "settling",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q14-1",
+          "group": "g14",
+          "query": "Should I add fixtures progressively during offset checks?",
+          "relevant": [
+            "offset"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "offset",
+            "drift",
+            "verify"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q14-2",
+          "group": "g14",
+          "query": "How do I check background leakage at the test bias?",
+          "relevant": [
+            "offset"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "offset",
+            "verify",
+            "generated"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q14-3",
+          "group": "g14",
+          "query": "How should I characterize open circuit offset?",
+          "relevant": [
+            "offset"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "offset",
+            "verify",
+            "guard"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q15-1",
+          "group": "g15",
+          "query": "What is the filtering versus speed tradeoff?",
+          "relevant": [
+            "filter"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "filter",
+            "settling"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q15-2",
+          "group": "g15",
+          "query": "How does averaging affect throughput?",
+          "relevant": [
+            "filter"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "filter"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q15-3",
+          "group": "g15",
+          "query": "Can additional delay reduce noise but slow testing?",
+          "relevant": [
+            "filter"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "settling",
+            "filter",
+            "verify"
+          ],
+          "recall": 1,
+          "rr": 0.5
+        },
+        {
+          "id": "q16-1",
+          "group": "g16",
+          "query": "Why does zero drift change with temperature?",
+          "relevant": [
+            "drift"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "drift",
+            "idss"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q16-2",
+          "group": "g16",
+          "query": "Why is thermal stability needed?",
+          "relevant": [
+            "drift"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "drift"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q16-3",
+          "group": "g16",
+          "query": "What can warmup and temperature changes do to offset?",
+          "relevant": [
+            "drift"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "drift",
+            "offset",
+            "verify"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q17-1",
+          "group": "g17",
+          "query": "Can input bias contribute to measured current?",
+          "relevant": [
+            "generated"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "generated",
+            "settling",
+            "breakdown"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q17-2",
+          "group": "g17",
+          "query": "Why does moving a cable generate current?",
+          "relevant": [
+            "generated"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "generated",
+            "breakdown",
+            "filter"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q17-3",
+          "group": "g17",
+          "query": "What are triboelectric error currents?",
+          "relevant": [
+            "generated"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "generated",
+            "verify"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q18-1",
+          "group": "g18",
+          "query": "How do I verify my noise floor?",
+          "relevant": [
+            "verify"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "verify",
+            "filter",
+            "guard"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q18-2",
+          "group": "g18",
+          "query": "How do I verify the instrument against its specification?",
+          "relevant": [
+            "verify"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "verify",
+            "shield",
+            "guard"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q18-3",
+          "group": "g18",
+          "query": "Why characterize system leakage before very small currents?",
+          "relevant": [
+            "verify"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "verify",
+            "generated",
+            "offset"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q19-1",
+          "group": "g19",
+          "query": "How is breakdown voltage measured?",
+          "relevant": [
+            "breakdown"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "breakdown",
+            "generated",
+            "hv"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q19-2",
+          "group": "g19",
+          "query": "Is an avalanche sweep the same as fixed-bias leakage?",
+          "relevant": [
+            "breakdown"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "breakdown",
+            "generated",
+            "settling"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q19-3",
+          "group": "g19",
+          "query": "What defines the stopping current in breakdown testing?",
+          "relevant": [
+            "breakdown"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "breakdown",
+            "generated",
+            "filter"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q20-1",
+          "group": "g20",
+          "query": "What does the high voltage safety note require?",
+          "relevant": [
+            "hv"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "hv",
+            "breakdown",
+            "threshold"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q20-2",
+          "group": "g20",
+          "query": "Where should exposed high-voltage conductors be enclosed?",
+          "relevant": [
+            "hv"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "hv",
+            "breakdown",
+            "threshold"
+          ],
+          "recall": 1,
+          "rr": 1
+        },
+        {
+          "id": "q20-3",
+          "group": "g20",
+          "query": "Does this demo implement a physical interlock?",
+          "relevant": [
+            "hv"
+          ],
+          "origin": "author-written synthetic development query",
+          "hits": [
+            "hv"
+          ],
+          "recall": 1,
+          "rr": 1
+        }
+      ]
+    }
+  ],
+  "paired_delta": {
+    "metric": "Recall@3: hybrid minus BM25",
+    "estimate": 0.08333333333333333,
+    "ci95": [
+      0.03333333333333333,
+      0.15
+    ],
+    "method": "5000 seeded cluster bootstrap replicates over paraphrase groups; seed 20261008"
+  },
+  "limitations": [
+    "Labels and terminology rules were authored by the same developer.",
+    "Small curated summary corpus, not expansive tester documentation.",
+    "No human workflow-time study or physical hardware validation.",
+    "No LLM factuality or citation-support benchmark."
+  ]
+}
